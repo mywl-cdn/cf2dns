@@ -1,11 +1,11 @@
-name: 'GitHub Actions CloudFlare2DNSPod Bot'
+name: 'GitHub Actions CloudFlaredns Bot'
 
 on:
   push:
     branches: 
       - master
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/960 * * * *'
 
 jobs:
   build:
